@@ -1,0 +1,11 @@
+/* -------------FOOTER------------- */
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: getColor('background-second-color');
+}
+
+.page-footer__container {
+  display: flex;
+  align-items: baseline;
+}

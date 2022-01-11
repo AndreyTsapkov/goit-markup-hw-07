@@ -1,0 +1,30 @@
+/* -------------BUTTON------------- */
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: getColor('third-text-color');
+
+  min-width: 200px;
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background-color: getColor('accent-color');
+  border: 1px transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color var(--animation-duration) var(--animation-timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: getColor('button-focus');
+  }
+
+  &--flex {
+    @extend %flex-center;
+  }
+}

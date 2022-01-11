@@ -1,0 +1,33 @@
+/* -------------CONTACTS------------- */
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+
+  color: inherit;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    color: getColor('accent-color');
+  }
+}
+
+.contacts__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

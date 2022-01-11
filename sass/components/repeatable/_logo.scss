@@ -1,0 +1,17 @@
+/* -------------LOGO------------- */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: getColor('accent-color');
+}
+
+.logo__second-part {
+  color: getColor('logo-first-color');
+
+  &--light {
+    color: getColor('logo-second-color');
+  }
+}
